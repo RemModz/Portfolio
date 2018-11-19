@@ -5,14 +5,16 @@
     /* style dla 1050px */
     .square1 {width:30%;}
     .square2 {width:65%;}
-
+    .rectangle {width:100%}
+    .footer {width:100%}
 }
 
 @media (max-width: 1100px) and (min-width: 1050px) {
     #container {width: 950px;margin:0 auto;}
     .square1 {width:30%;}
     .square2 {width:65%;}
-
+    .rectangle {width:100%}
+    .footer {width:100%}
     /* style dla 950px */
 }
 
@@ -20,7 +22,8 @@
     #container {width: 750px;margin:0 auto;}
     .square1 {width:30%;}
     .square2 {width:65%;}
-
+    .rectangle {width:100%}
+    .footer {width:100%}
     /* style dla 750px */
 }
 
@@ -28,7 +31,8 @@
     #container {width: 450px;margin:0 auto;}
     .square1 {width:30%;}
     .square2 {width:65%;}
-
+    .rectangle {width:100%}
+    .footer {width:100%}
     /* style dla 450px */
 }
 
@@ -95,7 +99,6 @@ body {
     text-align: left;
     margin-top: 20px;
 }
-
 .tile1 {
     margin: 10px;
     width: 230px;

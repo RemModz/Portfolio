@@ -1,41 +1,25 @@
 @media (min-width: 1100px) {
     #container {width: 1000px;margin:0 auto;}
-   
-
     /* style dla 1050px */
-    .square1 {width:30%;}
-    .square2 {width:65%;}
-
 }
 
 @media (max-width: 1100px) and (min-width: 1050px) {
     #container {width: 950px;margin:0 auto;}
-    .square1 {width:30%;}
-    .square2 {width:65%;}
-
     /* style dla 950px */
 }
 
 @media (max-width: 1000px) and (min-width: 800px) {
     #container {width: 750px;margin:0 auto;}
-    .square1 {width:30%;}
-    .square2 {width:65%;}
-
     /* style dla 750px */
 }
 
 @media (max-width: 800px) and (min-width: 500px) {
     #container {width: 450px;margin:0 auto;}
-    .square1 {width:30%;}
-    .square2 {width:65%;}
-
     /* style dla 450px */
 }
 
 @media (max-width: 500px) {
-    #container {width: 90%;margin:0 auto;}
-    .square,
-    .tile5 {width:100%;}
+    #container {width: 300px;margin:0 auto;}
     /* style dla 300px */
 }
 
@@ -51,7 +35,7 @@ body {
 }
 
 #container {
- 
+    margin
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -64,14 +48,7 @@ body {
 }
 
 
-.square1 {
-    width: 50%;
-    float: left;
-    color: black;
-    text-align: center
-}
-
-.square2 {
+.square {
     width: 50%;
     float: left;
     color: black;
@@ -92,10 +69,9 @@ body {
     float: right;    
     font-family: 'Nunito', sans-serif;
     font-size: 50px;
-    text-align: left;
+    text-align: right;
     margin-top: 20px;
 }
-
 .tile1 {
     margin: 10px;
     width: 230px;
